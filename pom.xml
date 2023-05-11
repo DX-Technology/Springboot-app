@@ -8,13 +8,7 @@
     <packaging>jar</packaging>
     <name>MyAwesomeApp</name>
     <description>SpringBoot Angularjs</description>
- 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.2.RELEASE</version>      
-	<relativePath/> 
-    </parent>
+
     <parent>
         <groupId>org.sonarsource.parent</groupId>
         <artifactId>parent</artifactId>
