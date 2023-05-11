@@ -1,5 +1,5 @@
-package com.tcs.angularjs;
-package com.test.spring.boot;
+/*package com.tcs.angularjs;*/
+package com.test.spring.boot.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
