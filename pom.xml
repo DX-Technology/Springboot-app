@@ -10,6 +10,26 @@
     <name>MyAwesomeApp</name>
     <description>SpringBoot Angularjs</description>
  
+    <settings>
+        <pluginGroups>
+            <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+        </pluginGroups>
+        <profiles>
+            <profile>
+                <id>sonar</id>
+                <activation>
+                    <activeByDefault>true</activeByDefault>
+                </activation>
+                <properties>
+                    <!-- Optional URL to server. Default value is http://localhost:9000 -->
+                    <sonar.host.url>
+                    http://40.124.83.242:9000
+                    </sonar.host.url>
+                </properties>
+            </profile>
+        </profiles>
+    </settings>
+    
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -56,8 +76,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>2.2</version>
-            </plugin>       
-	</plugins>
+            </plugin>        </plugins>
 	<finalName>springbootApp</finalName>
     </build>
  
