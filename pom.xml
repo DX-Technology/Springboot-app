@@ -20,7 +20,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
     </properties>
  
     <dependencies>
@@ -55,9 +55,9 @@
 	    <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.0.2</version>
-            </plugin>
-        </plugins>
+                <version>2.2</version>
+            </plugin>       
+	</plugins>
 	<finalName>springbootApp</finalName>
     </build>
  
